@@ -19,7 +19,6 @@ const Tabs = ({ tabs, activeTab, setActiveTab }) => {
         data={tabs}
         renderItem={({ item }) => (
           <>
-            {console.log(item)}
             <TabButton
               name={item}
               activeTab={activeTab}
