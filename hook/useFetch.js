@@ -12,8 +12,7 @@ const useFetch = (endpoint, query) => {
     method: 'GET',
     url: `https://jsearch.p.rapidapi.com/${endpoint}`,
     params: {
-      // query: { ...query },
-      query: query?.query,
+      ...query,
       page: '1',
       num_pages: query?.num_pages
     },
