@@ -4,7 +4,6 @@ import { icons } from '../../../constants'
 import styles from './footer.style'
 
 const Footer = ({ url }) => {
-  console.log(111, url)
   return (
     <View style={styles.container}>
       <TouchableOpacity style={styles.likeBtn}>
